@@ -1,1 +1,1 @@
-# personal_portfolio_project
+# Responsive Portfolio Website using HTML, CSS, JavaScript

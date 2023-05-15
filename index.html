@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <ul class="link-group">
+        <li class="link active"><a href="#home">Home</a></li>
+        <li class="link"><a href="#portfolio">Portfolio</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- home section -->
+
+    <section class="home-section active">
+      <h1 class="hero-heading">Lorem, ipsum <br />Lorem, ipsum</h1>
+    </section>
+
+    <!-- project section  -->
+
+    <section class="project-section active">
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            src="https://picsum.photos/id/948/367/267"
+            class="project-img"
+            alt=""
+          />
+          <div class="project-content">
+            <h1 class="project-title">project 1</h1>
+            <p class="project-info">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+              mollitia quam placeat nobis rerum veniam perferendis! Impedit at
+              fugiat cumque.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">github</button>
+              <button class="project-btn live">see live</button>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://picsum.photos/id/1031/367/267"
+            class="project-img"
+            alt=""
+          />
+          <div class="project-content">
+            <h1 class="project-title">project 2</h1>
+            <p class="project-info">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+              mollitia quam placeat nobis rerum veniam perferendis! Impedit at
+              fugiat cumque.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">github repo</button>
+              <button class="project-btn live">see live</button>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://picsum.photos/id/508/367/267"
+            class="project-img"
+            alt=""
+          />
+          <div class="project-content">
+            <h1 class="project-title">project 3</h1>
+            <p class="project-info">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+              mollitia quam placeat nobis rerum veniam perferendis! Impedit at
+              fugiat cumque.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">github repo</button>
+              <button class="project-btn live">see live</button>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://picsum.photos/id/520/367/267"
+            class="project-img"
+            alt=""
+          />
+          <div class="project-content">
+            <h1 class="project-title">project 4</h1>
+            <p class="project-info">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+              mollitia quam placeat nobis rerum veniam perferendis! Impedit at
+              fugiat cumque.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">github repo</button>
+              <button class="project-btn live">see live</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+
+    <section class="about-section active">
+      <div class="about">
+        <div class="about-img-container">
+          <img
+            src="https://picsum.photos/id/1006/367/267"
+            class="about-img"
+            alt=""
+          />
+          <button class="download-cv-btn">download cv</button>
+        </div>
+        <p class="about-info">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          iure tempore ipsum minus deserunt sapiente soluta sed esse, nam ab
+          harum placeat possimus, libero reiciendis magni recusandae? Temporibus
+          debitis molestias nobis inventore nemo, atque quia quos accusantium
+          ipsa sint minus facere ad maiores quaerat magni vel itaque illum
+          labore aut.
+        </p>
+      </div>
+    </section>
+
+    <!-- contact section  -->
+
+    <section class="contact-section active">
+      <form class="contact-form">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          autocomplete="off"
+          placeholder="name"
+        />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          autocomplete="off"
+          placeholder="email"
+        />
+        <textarea
+          name="msg"
+          id="msg"
+          placeholder="message"
+          autocomplete="off"
+        ></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+      </form>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
